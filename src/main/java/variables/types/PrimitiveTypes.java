@@ -41,6 +41,12 @@ public class PrimitiveTypes {
 //      BOOLEAN
         boolean isBoolean = true; // outros exemplos: isGreaterThan, isFlexible, isStarted
         boolean ehNumero = false; // outros exemplos: ehMaiorDeIdade, ehCedo, ehValido
+        
+//      CHAR
+        char letraA = 'a';
+        char letraAMaiuscula = 'A';
+        System.out.println(letraA); // a
+        System.out.println(letraAMaiuscula); // A
 	}
 
 }
