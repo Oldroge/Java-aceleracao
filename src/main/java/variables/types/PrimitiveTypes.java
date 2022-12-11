@@ -19,6 +19,12 @@ public class PrimitiveTypes {
         soma = a + c; // atribuição da soma da variável a + c para a variável soma
         System.out.println(numeroInteiro);
         System.out.println(soma);
+        
+//      LONG
+        long numA = 102040;
+        long numB = 102030405060L; // adicionado L no final para indicar que estamos inserindo um valor do tipo long
+        System.out.println(numA);
+        System.out.println(numB);
 	}
 
 }
