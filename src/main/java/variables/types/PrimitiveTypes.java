@@ -16,7 +16,7 @@ public class PrimitiveTypes {
 //      INT
         int numeroInteiro = 10;
         int a = 10, c = 20, soma; // inicialização de variáveis inline
-        soma = a + c; // atribuição da soma da variável a + b para a variável soma
+        soma = a + c; // atribuição da soma da variável a + c para a variável soma
         System.out.println(numeroInteiro);
         System.out.println(soma);
 	}
