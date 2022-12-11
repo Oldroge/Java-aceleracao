@@ -47,6 +47,11 @@ public class PrimitiveTypes {
         char letraAMaiuscula = 'A';
         System.out.println(letraA); // a
         System.out.println(letraAMaiuscula); // A
+        
+//      STRING
+        String frase = "Estou aprendendo Java!";
+        String numeros = "09890";
+        String caractere = "a";
 	}
 
 }
