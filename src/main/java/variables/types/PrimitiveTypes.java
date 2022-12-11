@@ -30,6 +30,17 @@ public class PrimitiveTypes {
         float numAa = -101.23f;
         float numBb = 2.356f;
         System.out.println(numA + numB); // -98.874
+        
+//      DOUBLE
+        double varDouble = 2.356; // double inicializado naturalmente
+        double doubleRecebendoFloat = 1.409F; // double aceitando número float
+        double doubleRecebendoLong = 12930L; // double aceitando número long
+        System.out.println(doubleRecebendoFloat); // 1.409000039100647
+        System.out.println(doubleRecebendoLong); // 12930.0
+        
+//      BOOLEAN
+        boolean isBoolean = true; // outros exemplos: isGreaterThan, isFlexible, isStarted
+        boolean ehNumero = false; // outros exemplos: ehMaiorDeIdade, ehCedo, ehValido
 	}
 
 }
