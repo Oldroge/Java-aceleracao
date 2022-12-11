@@ -62,8 +62,28 @@ public class PrimitiveTypes {
         String em = " em";
         String java = " Java";
 
-        String frase = eu + ja + sei + usar + strings + em + java;
-        System.out.println(frase); // Eu já sei usar Strings em Java
+        String frase1 = eu + ja + sei + usar + strings + em + java;
+        System.out.println(frase1); // Eu já sei usar Strings em Java
+        
+//      STRING BUILDER
+        StringBuilder stringBuilder = new StringBuilder();
+        String eu1 = "Eu";
+        String ja1 = " já";
+        String sei1 = " sei";
+        String usar1 = " usar";
+        String strings1 = " Strings";
+        String em1 = " em";
+        String java1 = " Java";
+
+        String frase2 = stringBuilder.append(eu1)
+                .append(ja1)
+                .append(sei1)
+                .append(usar1)
+                .append(strings1)
+                .append(em1)
+                .append(java1)
+                .toString();
+        System.out.println(frase2); // Eu já sei usar Strings em Java
 	}
 
 }
