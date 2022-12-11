@@ -52,6 +52,18 @@ public class PrimitiveTypes {
         String frase = "Estou aprendendo Java!";
         String numeros = "09890";
         String caractere = "a";
+        
+//      CONCATENAR STRING
+        String eu = "Eu";
+        String ja = " já";
+        String sei = " sei";
+        String usar = " usar";
+        String strings = " Strings";
+        String em = " em";
+        String java = " Java";
+
+        String frase = eu + ja + sei + usar + strings + em + java;
+        System.out.println(frase); // Eu já sei usar Strings em Java
 	}
 
 }
