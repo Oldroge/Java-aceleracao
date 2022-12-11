@@ -25,6 +25,11 @@ public class PrimitiveTypes {
         long numB = 102030405060L; // adicionado L no final para indicar que estamos inserindo um valor do tipo long
         System.out.println(numA);
         System.out.println(numB);
+        
+//      FLOAT
+        float numAa = -101.23f;
+        float numBb = 2.356f;
+        System.out.println(numA + numB); // -98.874
 	}
 
 }
