@@ -64,5 +64,10 @@ public class ForWhile {
 			log3 = "Matricula: " + matricula + " Aluno: " + alunos[posicao] + "|n";
 			System.out.println(log3);
 		}
+		
+//	FOR COM OUTRA SINTAXE
+		for (String nome : alunos) {
+			System.out.println(nome);
+		}
 	}
 }
