@@ -1,4 +1,5 @@
 package structures.repeating;
+import java.util.Random;
 
 public class ForWhile {
 	public static void main(String[] args) {
@@ -69,5 +70,20 @@ public class ForWhile {
 		for (String nome : alunos) {
 			System.out.println(nome);
 		}
+		
+//	DO/WHILE
+		int tentativas = 0;
+		int atendeu = 0;
+		String log4;
+
+		do {
+			log4 = "Ligando para candidato selecionado ...|n";
+			// O código abaixo nos dá um numero aleatório entre 0 e 2.
+			atendeu = new Random().ints(0, 2).findFirst().getAsInt();
+			tentativas += 1;
+		} while (atendeu == 0 && tentativas < 3);
+
+		log4 = "Candidato atendeu na tentativa: " + tentativas;
+		System.out.println(log4);
 	}
 }
