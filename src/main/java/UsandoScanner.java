@@ -41,12 +41,20 @@ class UsandoScanner {
         
         System.out.print("Entre com o preço do litro da gasolina: ");
         String input5 = scanner.next();
-        scanner.close();
     
         float gasolina = Float.parseFloat(input5);
 
         float resultado4 = gasolina + gasolina;
         System.out.println("Ano que vem o litro da gasolina vai custar: " + resultado4);
+        
+        System.out.print("Entre com o preço do litro da gasolina: ");
+        String input6 = scanner.next();
+        scanner.close();
+    
+        double gasolina1 = Double.parseDouble(input6);
+
+        double resultado5 = gasolina1 + gasolina1;
+        System.out.println("Ano que vem o litro da gasolina vai custar: " + resultado5);
     
     }
 
