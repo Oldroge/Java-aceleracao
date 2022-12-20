@@ -32,13 +32,21 @@ class UsandoScanner {
         
         System.out.print("Entre com o tamanho da população chinesa: ");
         String input4 = scanner.next();
-        scanner.close();
     
         long populacaoChinesa = Long.parseLong(input4);
 
         // Obs: não se preocupe, logo mais descobriremos o porquê desse L aparecer no número `7909863848L`.
         long resultado3 = 7909863848L + populacaoChinesa;
         System.out.println("Se tivéssemos duas Chinas no mundo, a população mundial seria: " + resultado3);
+        
+        System.out.print("Entre com o preço do litro da gasolina: ");
+        String input5 = scanner.next();
+        scanner.close();
+    
+        float gasolina = Float.parseFloat(input5);
+
+        float resultado4 = gasolina + gasolina;
+        System.out.println("Ano que vem o litro da gasolina vai custar: " + resultado4);
     
     }
 
