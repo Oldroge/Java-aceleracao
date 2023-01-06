@@ -1,4 +1,4 @@
-package structures.repeating;
+package EssenciaisJava.structures.repeating;
 import java.util.Random;
 
 public class ForWhile {
