@@ -1,7 +1,11 @@
 package orientacaoAObjetos.Abstration;
 
 public class Livro {
-  Livro() {
-    System.out.println("Sucesso!");
+  public Livro(String message) {
+    System.out.println(message);
+  }
+
+  public Livro(int num) {
+    System.out.println(num);
   }
 }
