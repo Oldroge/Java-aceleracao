@@ -1,4 +1,4 @@
-package structures.conditionals;
+package EssenciaisJava.structures.conditionals;
 
 public class IfElse {
 	public static void main(String[] args) {

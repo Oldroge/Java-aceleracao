@@ -1,4 +1,4 @@
-package variables.types;
+package EssenciaisJava.variables.types;
 
 public class PrimitiveTypes {
 
