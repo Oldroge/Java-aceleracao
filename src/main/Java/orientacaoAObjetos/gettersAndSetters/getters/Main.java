@@ -1,4 +1,4 @@
-package orientacaoAObjetos.gettersAndSetters;
+package orientacaoAObjetos.gettersAndSetters.getters;
 
 public class Main {
   public static void main(String[] args) {
