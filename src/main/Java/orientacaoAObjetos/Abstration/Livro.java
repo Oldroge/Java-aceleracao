@@ -7,6 +7,7 @@ public class Livro {
 
   public Livro(String message) {
     System.out.println(message);
+    retornarNumeroDePaginas();
   }
 
   public Livro(int num) {
