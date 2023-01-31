@@ -43,6 +43,14 @@ public class StringExemplos {
       System.out.println(casa);
   }
 
+  public void harryPotterHouses2() {
+    String casasTexto = "Grifinória123Sonseria456Corvinal789Lufa-Lufa";
+    String casas[] = casasTexto.split("\\d+");
+
+    for (String casa : casas)
+      System.out.println(casa);
+  }
+
 }
 
 

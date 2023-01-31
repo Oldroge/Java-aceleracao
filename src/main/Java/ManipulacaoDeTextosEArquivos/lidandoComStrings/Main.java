@@ -8,5 +8,6 @@ public class Main {
     nome.changeSomeLetter('M');
     nome.findSomeLetter('s');
     nome.harryPotterHouses();
+    nome.harryPotterHouses2();
   }
 }
