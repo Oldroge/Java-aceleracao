@@ -15,6 +15,14 @@ public class StringExemplos {
                                // Magali Medeiros
   }
 
+  public void changeNameTwo(String name) {
+    String nomes = "Maria Magali, Magali da Silva, Magali Medeiros";
+
+    nomes = nomes.replaceAll("Magali", name); // Usando replaceAll
+
+    System.out.println(nomes); // imprime: Maria Laura, Laura da Silva, Laura Medeiros
+  }
+
 }
 
 
