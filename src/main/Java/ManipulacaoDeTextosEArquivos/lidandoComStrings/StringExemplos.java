@@ -23,18 +23,21 @@ public class StringExemplos {
     System.out.println(nomes); // imprime: Maria Laura, Laura da Silva, Laura Medeiros
   }
 
+  // indexOf
   public void changeSomeLetter(char letra) {
     String saudacao = "Olá, Mundo!";
 
     System.out.println(saudacao.indexOf(letra)); // imprime: 5
   }
 
+  // indexOf com segundo parâmetro
   public void findSomeLetter(char letra) {
     String lorem = "Lorem ipsum dolor sit amet";
 
     System.out.println(lorem.indexOf(letra, 10)); // imprime: 18
   }
 
+  // Método split
   public void harryPotterHouses() {
     String casasTexto = "Grifinória;Sonseria;Corvinal;Lufa-Lufa";
     String casas[] = casasTexto.split(";");
@@ -43,6 +46,7 @@ public class StringExemplos {
       System.out.println(casa);
   }
 
+  // Método split com expressões regulares
   public void harryPotterHouses2() {
     String casasTexto = "Grifinória123Sonseria456Corvinal789Lufa-Lufa";
     String casas[] = casasTexto.split("\\d+");
