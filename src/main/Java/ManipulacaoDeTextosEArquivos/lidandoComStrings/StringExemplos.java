@@ -55,6 +55,15 @@ public class StringExemplos {
       System.out.println(casa);
   }
 
+  // Método split com segundo parâmetro para criar limites
+  public void limitandoMétodoSplit() {
+    String frase = "caneta,lápis,lapiseira,caderno,borracha";
+    String formatado[] = frase.split(",", 3);
+
+    for (String novo_formato : formatado)
+      System.out.println(novo_formato); // imprime ["caneta", "lápis", "lapiseira,caderno,borracha"]
+  }
+
 }
 
 
