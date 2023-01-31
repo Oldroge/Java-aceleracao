@@ -9,5 +9,6 @@ public class Main {
     nome.findSomeLetter('s');
     nome.harryPotterHouses();
     nome.harryPotterHouses2();
+    nome.booFoo(-1);
   }
 }

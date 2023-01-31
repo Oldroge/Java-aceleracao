@@ -64,6 +64,18 @@ public class StringExemplos {
       System.out.println(novo_formato); // imprime ["caneta", "lápis", "lapiseira,caderno,borracha"]
   }
 
+  public void booFoo(int limit) {
+    String palavras = "boo:and:foo:loo:cool:dool";
+
+    String formatado[] = palavras.split(":", limit);
+
+    for (String novoFormato : formatado) {
+
+      System.out.println(novoFormato);
+    }
+
+  }
+
 }
 
 
