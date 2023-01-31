@@ -23,6 +23,12 @@ public class StringExemplos {
     System.out.println(nomes); // imprime: Maria Laura, Laura da Silva, Laura Medeiros
   }
 
+  public void changeSomeLetter(char letra) {
+    String saudacao = "Olá, Mundo!";
+
+    System.out.println(saudacao.indexOf(letra)); // imprime: 5
+  }
+
 }
 
 

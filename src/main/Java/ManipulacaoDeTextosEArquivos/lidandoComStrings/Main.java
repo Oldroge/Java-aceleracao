@@ -5,5 +5,6 @@ public class Main {
     StringExemplos nome = new StringExemplos();
 
     nome.changeName("Laura");
+    nome.changeSomeLetter('M');
   }
 }
