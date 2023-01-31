@@ -29,6 +29,12 @@ public class StringExemplos {
     System.out.println(saudacao.indexOf(letra)); // imprime: 5
   }
 
+  public void findSomeLetter(char letra) {
+    String lorem = "Lorem ipsum dolor sit amet";
+
+    System.out.println(lorem.indexOf(letra, 10)); // imprime: 18
+  }
+
 }
 
 

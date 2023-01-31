@@ -6,5 +6,6 @@ public class Main {
 
     nome.changeName("Laura");
     nome.changeSomeLetter('M');
+    nome.findSomeLetter('s');
   }
 }
