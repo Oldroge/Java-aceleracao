@@ -35,6 +35,14 @@ public class StringExemplos {
     System.out.println(lorem.indexOf(letra, 10)); // imprime: 18
   }
 
+  public void harryPotterHouses() {
+    String casasTexto = "Grifinória;Sonseria;Corvinal;Lufa-Lufa";
+    String casas[] = casasTexto.split(";");
+
+    for (String casa : casas)
+      System.out.println(casa);
+  }
+
 }
 
 
