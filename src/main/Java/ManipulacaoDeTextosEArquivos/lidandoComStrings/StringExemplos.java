@@ -76,6 +76,13 @@ public class StringExemplos {
 
   }
 
+  public void upperCase() {
+    System.out.println("melancia".toUpperCase());
+    System.out.println("Mamão".toUpperCase());
+    System.out.println("aBaCaXi".toUpperCase());
+    System.out.println("laranj@".toUpperCase());
+  }
+
 }
 
 
