@@ -62,6 +62,24 @@ public class App {
     Pessoa p1 = new Pessoa(null);
     System.out.println(p1.getNome());
 
+    /**
+     * Essa maneira de tratar é o multi catch, pode-se tratar diversos erros numa mesma thread
+     */
+    int[] numeros1 = new int[10];
+    try {
+      System.out.println("Digite um número de índice que você quer acessar: ");
+      int indice = 11;
+
+      numeros1[indice] = 10; // essa linha pode lançar a ArrayIndexOutOfBoundsException
+
+      numeros1[indice] = 2 / 0; // essa linha irá lançar a ArithmeticException
+      System.out.println(numeros1);
+    } catch (ArrayIndexOutOfBoundsException e) {
+      System.out.println("Ops, essa posição não existe!");
+    } catch (ArithmeticException e) {
+      System.out.println("Ops, não é possível dividir por 0");
+    }
+
 
   }
 
