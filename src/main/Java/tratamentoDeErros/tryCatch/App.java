@@ -18,6 +18,18 @@ public class App {
     // Exception in thread "main" java.lang.ArithmeticException: / by zero
     // at tratamentoDeErros.tryCatch.App.main(App.java:6)
 
+    /**
+     * Tratando o erro acima com os blocos try/catch Neste caso, quando o try tentar executar o
+     * código e estourar a excessão vai cair no bloco catch e fazer o tratamento de erro
+     */
+    try {
+      Integer resultado2 = 2 / 0;
+      System.out.println("Será que deu certo?");
+      System.out.println(resultado2);
+    } catch (ArithmeticException e) {
+      System.out.println("Ops! Não é possível realizer divisão por 0");
+    }
+
   }
 
   /**
