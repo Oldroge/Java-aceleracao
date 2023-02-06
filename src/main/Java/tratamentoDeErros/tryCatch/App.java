@@ -54,6 +54,14 @@ public class App {
       System.out.println("Ops, essa posição não existe!");
     }
 
+    /**
+     * Neste trecho de código a seguir, esta sendo atribuindo um valor nulo ao objeto Pessoa este
+     * tipo de exception é da categoria unchecked, pois o código compila de qualquer maneira, porém
+     * o ideal também seria realizar o tratamento.
+     */
+    Pessoa p1 = new Pessoa(null);
+    System.out.println(p1.getNome());
+
 
   }
 
