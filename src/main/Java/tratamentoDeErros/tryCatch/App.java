@@ -44,6 +44,16 @@ public class App {
     // for length 10
     // at io.caused.App.main(App.java:8)
 
+    /**
+     * Tratando o erro acima com o Try/catch
+     */
+    try {
+      numeros[15] = 10;
+      System.out.println(numeros);
+    } catch (ArrayIndexOutOfBoundsException e) {
+      System.out.println("Ops, essa posição não existe!");
+    }
+
 
   }
 
