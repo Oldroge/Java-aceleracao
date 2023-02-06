@@ -32,4 +32,19 @@ public class App {
     return new ObjectOutputStream(new FileOutputStream(file));
   }
 
+  /**
+   * Método recursivo que cria um looping infinito e estoura o erro StackOverflowError.
+   * 
+   * RECOMENDO NÃO EXECUTAR ESSE CÓDIGO SE VOCÊ TEM AMOR A SUA MÁQUINA.
+   * 
+   * @param numero
+   */
+  public static void teste(int numero) {
+    if (numero == 0) {
+      return;
+    } else {
+      teste(numero++);
+    }
+  }
+
 }
