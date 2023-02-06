@@ -30,6 +30,21 @@ public class App {
       System.out.println("Ops! Não é possível realizer divisão por 0");
     }
 
+    // Na linha 34 é inicializado uma variável com index de 10 casa, de 0 a 9
+    // na linha 37 é atribuido ao index 15 o valor 10
+    // mas como pode se esperar ira lançar a exception ArrayIndexOutOfBoundsException, pois o index
+    // 15 não existe.
+    int[] numeros = new int[10];
+
+    numeros[15] = 10;
+
+    System.out.println(numeros);
+
+    // Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 15 out of bounds
+    // for length 10
+    // at io.caused.App.main(App.java:8)
+
+
   }
 
   /**
