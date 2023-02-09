@@ -110,6 +110,14 @@ public class Lists {
     estudantes6.remove("Pedro");
     System.out.println("removido pelo valor Pedro: " + estudantes6);
 
+    /**
+     * Para saber o tamanho de um array de um List ou ArrayList (método similar ao length()) é o
+     * método .size()
+     */
+    System.out.println("====================================================");
+    System.out.println("TAMANHO DE UM ARRAY:");
+    System.out.println(estudantes.size());
+
 
   }
 
