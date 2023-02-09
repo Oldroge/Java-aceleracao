@@ -118,6 +118,18 @@ public class Lists {
     System.out.println("TAMANHO DE UM ARRAY:");
     System.out.println(estudantes.size());
 
+    /**
+     * Para saber se um ArrayList ou List contém um determinado valor, pode usar o método
+     * .contains(), que irá retornar um valor booleano
+     */
+    System.out.println("====================================================");
+    System.out.println("VERIFICANDO SE OCORRÊNCIA NO ARRAY EXISTE:");
+    System.out.println(estudantes.contains("Pedro")); // true
+    System.out.println(estudantes.contains("pedro")); // true
+    /**
+     * Contains é case sensitive, então 'Pedro' e 'pedro' são valores diferentes
+     */
+
 
   }
 
