@@ -76,6 +76,13 @@ public class Lists {
      * at colections.listAndSet.list.Lists.main(Lists.java:70)
      */
 
+    // Em todas as listas para conseguir capturar um valor dentro de uma lista atráves do seu indíce
+    // se usa
+    // o método .get(int index);
+    String pedro = estudantes.get(2);
+    System.out.println(pedro);
+
+
   }
 
 }
