@@ -97,6 +97,18 @@ public class Lists {
     var estudantes5 = new ArrayList<String>(Arrays.asList("João", "Maria", "Pedro", "Rosa"));
     estudantes5.add("Joana");
     System.out.println(estudantes5);
+    /**
+     * para remover um item de um Array, é possível através também do ArrayList, tanto pelo indíce
+     * quanto pelo valor:
+     */
+    System.out.println("====================================================");
+    System.out.println("REMOVENDO ITENS EM UM ARRAY:");
+    var estudantes6 = new ArrayList<String>(Arrays.asList("João", "Maria", "Pedro", "Rosa"));
+    System.out.println("antes de remover: " + estudantes6);
+    estudantes6.remove(1);
+    System.out.println("Removido pelo indice 1: " + estudantes6);
+    estudantes6.remove("Pedro");
+    System.out.println("removido pelo valor Pedro: " + estudantes6);
 
 
   }
