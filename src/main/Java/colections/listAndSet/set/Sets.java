@@ -54,6 +54,14 @@ public class Sets {
     System.out.println(estudantes3); // ["João", "Maria"];
     estudantes3.remove("João");
     System.out.println(estudantes3); // ["Maria"];
+
+    System.out.println("====================================");
+    System.out.println("Medindo o tamanho de uma lista HashSet com size:");
+
+    var estudantes4 = new HashSet<>();
+    estudantes4.add("João");
+    estudantes4.add("Maria");
+    System.out.println(estudantes4.size());
   }
 
 }
