@@ -45,12 +45,13 @@ public class Lists {
     System.out.println("LIST");
     System.out.println("Existe diferentes formas de se declarar uma lista usando o List:");
     System.out.println("====================================================");
-    System.out.println("PRIMEIRA FORMA: Arrays.asList(\"João\", \"Maria\", \"Pedro\", \"Rosa\");");
+    System.out.println(
+        "PRIMEIRA FORMA: List<String> estudantes = Arrays.asList(\"João\", \"Maria\", \"Pedro\", \"Rosa\");");
     List<String> estudantes = Arrays.asList("João", "Maria", "Pedro", "Rosa");
     System.out.println(estudantes);
     System.out.println("====================================================");
     System.out.println(
-        "SEGUNDA FORMA: Arrays.asList(new String[] {\"João\", \"Maria\", \"Pedro\", \"Rosa\"});");
+        "SEGUNDA FORMA: List<String> estudantes2 = Arrays.asList(new String[] {\"João\", \"Maria\", \"Pedro\", \"Rosa\"});");
     List<String> estudantes2 = Arrays.asList(new String[] {"João", "Maria", "Pedro", "Rosa"});
     System.out.println(estudantes2);
     String[] arrayDeEstudantes = new String[] {"João", "Maria", "Pedro", "Rosa"};
@@ -61,6 +62,19 @@ public class Lists {
         "String[] arrayDeEstudantes = new String[] {\"João\", \"Maria\", \"Pedro\", \"Rosa\"};");
     System.out.println("List<String> estudantes3 = Arrays.asList(arrayDeEstudantes);");
     System.out.println(estudantes3);
+
+    System.out.println("====================================================");
+    System.out.println("LISTAS IMUTÁVEIS: List.of(\"João\", \"Maria\", \"Pedro\", \"Rosa\"););");
+    var estudantes4 = List.of("João", "Maria", "Pedro", "Rosa");
+    System.out.println(estudantes4);
+    // estudantes4.add("Roge"); // aqui vai gerar um erro de UnsupportedOperationException
+    // System.out.println(estudantes4);
+    /**
+     * Exception in thread "main" java.lang.UnsupportedOperationException at
+     * java.base/java.util.ImmutableCollections.uoe(ImmutableCollections.java:142) at
+     * java.base/java.util.ImmutableCollections$AbstractImmutableCollection.add(ImmutableCollections.java:147)
+     * at colections.listAndSet.list.Lists.main(Lists.java:70)
+     */
 
   }
 
