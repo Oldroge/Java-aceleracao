@@ -41,6 +41,19 @@ public class Sets {
     System.out.println(String.format("adicionouMaria: %b", adicionouMaria));
 
 
+    System.out.println("====================================");
+    System.out.println("Removendo itens na lista do HashSet:");
+    /**
+     * O hashSet possui uma peculiaridade, não garante a ordem dentro da lista, sendo assim, não
+     * possui o index logo, algumas operações como possui no ArrayList, adicionar um item através do
+     * index, deixa de fazer sentido. A remoção se faz da mesma maneira como no list:
+     */
+    var estudantes3 = new HashSet<>();
+    estudantes3.add("João");
+    estudantes3.add("Maria");
+    System.out.println(estudantes3); // ["João", "Maria"];
+    estudantes3.remove("João");
+    System.out.println(estudantes3); // ["Maria"];
   }
 
 }
