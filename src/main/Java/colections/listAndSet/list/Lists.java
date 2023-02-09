@@ -82,6 +82,22 @@ public class Lists {
     String pedro = estudantes.get(2);
     System.out.println(pedro);
 
+    System.out.println("====================================================");
+    System.out.println("ALTERANDO ITENS EM UM ARRAY:");
+    estudantes.set(0, "Marina");
+    System.out.println(estudantes);
+    // O array.asList retorna um array de tamanho fixo, porém com valores mutáveis, qualquer
+    // tentativa de adicionar um
+    // item novo ao final do array retorna um erro. Mas é possível alterar qualquer um dos valores
+    // já existentes no array.
+    // Se for necessário adicionar ou remover elementos de uma lista é possível através de um
+    // ArrayList, por exemplo:
+    System.out.println("====================================================");
+    System.out.println("ADICIONANDO ITENS EM UM ARRAY:");
+    var estudantes5 = new ArrayList<String>(Arrays.asList("João", "Maria", "Pedro", "Rosa"));
+    estudantes5.add("Joana");
+    System.out.println(estudantes5);
+
 
   }
 
