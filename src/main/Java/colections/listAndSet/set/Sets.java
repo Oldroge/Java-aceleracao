@@ -62,6 +62,13 @@ public class Sets {
     estudantes4.add("João");
     estudantes4.add("Maria");
     System.out.println(estudantes4.size());
+
+    System.out.println("====================================");
+    System.out.println("Metodo contains no HashSet:");
+    var estudantes5 = new HashSet<>();
+    estudantes5.add("João");
+    estudantes5.add("Maria");
+    System.out.println(estudantes5.contains("Maria")); // true
   }
 
 }
