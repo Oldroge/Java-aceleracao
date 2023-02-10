@@ -24,5 +24,13 @@ class Main {
      * método .get(key);
      */
     System.out.println("Chave x038702: " + estudantes.get("x038702"));
+
+    /**
+     * O Map possui alguns métodos similares as collections List e Set
+     * dentre eles o .size(), .isEmpty() e o .remove(key);
+     */
+
+    estudantes.remove("x038702");
+    System.out.println("Removendo o objeto x038702: " + estudantes);
   }
 }
