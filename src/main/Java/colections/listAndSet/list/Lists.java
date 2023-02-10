@@ -14,7 +14,7 @@ public class Lists {
    */
   public static void main(String[] args) {
     System.out.println("ARRAY LIST");
-    var numeros = new ArrayList<Integer>();
+    ArrayList<Integer> numeros = new ArrayList<Integer>();
     numeros.add(7);
     numeros.add(2);
     numeros.add(1);
