@@ -19,5 +19,10 @@ class Main {
     System.out.println("Valor anterior de x038702: " + valorAnterior); // valorAnterior imprime o valor substituído
     System.out.println("Estudantes: " + estudantes); // {x038702=José, x105852=Joana, x784244=Maria}
 
+    /**
+     * Leitura de um valor que pertence a uma chave específica usando o
+     * método .get(key);
+     */
+    System.out.println("Chave x038702: " + estudantes.get("x038702"));
   }
 }
