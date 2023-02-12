@@ -7,6 +7,8 @@ public class Estudante {
 
   private String curso;
 
+  public Estudante() {}
+
   public Estudante(String matricula, String nome, String curso) {
     this.matricula = matricula;
     this.nome = nome;
