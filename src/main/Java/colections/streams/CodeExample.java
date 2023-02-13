@@ -3,7 +3,7 @@ package colections.streams;
 import java.util.Collection;
 import java.util.Set;
 
-public class CodeExamples {
+public class CodeExample {
   public static Collection<Estudante> obterEntrada() {
     return Set.of(new Estudante("2001", "Maria", "Computação"),
         new Estudante("2002", "João", "Computação"), new Estudante("2003", "José", "Pedagogia"),
