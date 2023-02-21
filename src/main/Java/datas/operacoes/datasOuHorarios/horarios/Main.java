@@ -1,4 +1,6 @@
-package datas.operacoes.horarios;
+package datas.operacoes.datasOuHorarios.horarios;
+
+import datas.operacoes.datasOuHorarios.horarios.PontoEletronico;
 
 public class Main {
 

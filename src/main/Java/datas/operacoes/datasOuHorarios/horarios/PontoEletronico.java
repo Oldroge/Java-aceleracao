@@ -1,4 +1,4 @@
-package datas.operacoes.horarios;
+package datas.operacoes.datasOuHorarios.horarios;
 
 import java.time.LocalTime;
 
