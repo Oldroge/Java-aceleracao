@@ -23,6 +23,10 @@ public class Main {
      * originário UTC, enquanto o LocalDateTime.now() pega com base na região onde eu configurei.
      */
 
+    // Para criar uma data específica vinda de uma String, utiliza o método parse()
+    LocalDateTime diaSofrimento = LocalDateTime.parse("2014-07-08T17:00:00");
+    System.out.println(diaSofrimento);
+
   }
 
 }
