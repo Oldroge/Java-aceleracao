@@ -8,6 +8,8 @@ public class Main {
     Clock relogio = Clock.systemDefaultZone();
     System.out.println(relogio);
 
+    System.out.println(relogio.instant());
+
   }
 
 }
