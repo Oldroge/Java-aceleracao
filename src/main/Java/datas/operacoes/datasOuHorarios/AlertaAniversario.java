@@ -7,7 +7,7 @@ public class AlertaAniversario {
     LocalDate dataHoje = LocalDate.now();
     LocalDate nascimento = LocalDate.parse("2000-12-21");
 
-    // Outra maneira de se fazer.
+    // Testando para ver se a comparação pode ser feita direto com datas completas
     if (dataHoje.equals(nascimento)) {
       System.out.println("Hoje é seu aniversário!");
     } else if (dataHoje.getDayOfMonth() < nascimento.getDayOfMonth()) {
