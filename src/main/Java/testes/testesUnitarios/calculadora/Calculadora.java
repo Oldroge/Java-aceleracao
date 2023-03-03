@@ -9,8 +9,23 @@ public class Calculadora {
     return x - y;
   }
 
-  public double dividir(double x, double y) {
-    return x / y;
+  public int dividir(int x, int y) {
+
+    if (verificarDividendo(y)) {
+      return x / y;
+    } else {
+      return 0;
+    }
+
+  }
+
+  // verifica se o dividendo é diferente de zero
+  public boolean verificarDividendo(int y) {
+    if (y == 0) {
+      return false;
+    } else {
+      return true;
+    }
   }
 
 }

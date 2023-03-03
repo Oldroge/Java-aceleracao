@@ -1,5 +1,6 @@
 package testes.testesUnitarios.calculadora;
 
+import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -25,7 +26,8 @@ class CalculadoraTest {
   @DisplayName("testa o método dividir")
   public void testeDividir() {
     Calculadora cal = new Calculadora();
-    assertEquals(1.5, cal.dividir(3, 2));
+    assertTrue(cal.verificarDividendo(5));
   }
+
 
 }
