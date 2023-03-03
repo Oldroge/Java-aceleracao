@@ -23,10 +23,16 @@ class CalculadoraTest {
   }
 
   @Test
-  @DisplayName("testa o método dividir")
-  public void testeDividir() {
+  @DisplayName("testa o método que verifica o dividendo")
+  public void testeVerificarDividendo() {
     Calculadora cal = new Calculadora();
     assertTrue(cal.verificarDividendo(5));
+  }
+
+  @DisplayName("testando o método dividir")
+  public void testeDividir() {
+    Calculadora cal = new Calculadora();
+    assertEquals(3, cal.dividir(6, 2));
   }
 
 
