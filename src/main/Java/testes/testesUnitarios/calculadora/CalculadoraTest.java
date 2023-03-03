@@ -1,5 +1,6 @@
 package testes.testesUnitarios.calculadora;
 
+import static org.junit.Assert.assertThrows;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.DisplayName;
@@ -34,6 +35,15 @@ class CalculadoraTest {
     Calculadora cal = new Calculadora();
     assertEquals(3, cal.dividir(6, 2));
   }
+
+  @DisplayName("testando a exceção do método dividir...")
+  public void testeDividirExcecao() {
+    Calculadora cal = new Calculadora();
+    assertThrows(ArithmeticException.class, () -> {
+      cal.dividir(3, 0);
+    });
+  }
+
 
 
 }
